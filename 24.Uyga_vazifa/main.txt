@@ -1,0 +1,19 @@
+first query:
+
+SELECT country, COUNT(*) AS count
+FROM customers AS cus
+INNER JOIN orders AS ord ON cus.customer_id = ord.customer_id
+WHERE EXTRACT(MONTH FROM order_date) = 4
+GROUP BY country
+ORDER BY count DESC;
+
+second query:
+
+SELECT country, COUNT(*) AS count 
+FROM (SELECT * FROM customers AS cus 
+INNER JOIN orders AS ord ON cus.customer_id = ord.customer_id) AS crt
+INNER JOIN order_details AS ordet
+ON crt.order_id = ordet.order_id
+WHERE ordet.product_id = 11
+GROUP BY country
+ORDER BY count;
