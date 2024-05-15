@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "title": "Война и Мир",
+        "author": {
+            "firstname": "Лев",
+            "lastname": "Толстой"
+        }
+    },
+    {
+        "id": "2",
+        "title": "Преступление и наказание",
+        "author": {
+            "firstname": "Фёдор",
+            "lastname": "Достоевский"
+        }
+    },
+    {
+        "id": "3",
+        "title": "O'tgan kunlar",
+        "author": {
+            "firstname": "Abdullaz",
+            "lastname": "Qodiriy"
+        }
+    },
+    {
+        "id": "697525",
+        "title": "Alvido, vatan",
+        "author": {
+            "firstname": "Azam",
+            "lastname": "Hoshimiy"
+        }
+    },
+    {
+        "id": "585242",
+        "title": "Martin Edin",
+        "author": {
+            "firstname": "Jack",
+            "lastname": "London"
+        }
+    }
+]
